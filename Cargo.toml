@@ -1,0 +1,7 @@
+[workspace]
+
+members = [
+  "lapis",
+  "lapis-api",
+  "lapis-yew",
+]
