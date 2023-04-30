@@ -8,7 +8,7 @@ pub struct ApiStartupParams {
     pub database_url: String,
     pub jwt_secret: String,
     pub jwt_expired_in: String,
-    pub jwt_max_age: i32,
+    pub jwt_max_age: String,
 }
 
 #[get("/api/v1/health")]
